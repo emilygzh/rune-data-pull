@@ -14,6 +14,9 @@ dependencies = [
 packages = [{include = "runelabs_watchdata", from = "src"}]
 
 
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
